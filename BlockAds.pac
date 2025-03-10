@@ -3,6 +3,7 @@
 // Date: March 09, 2025
 // License: Mozilla Public License Version 1.1 (MPL), GNU General Public License Version 2 (GPL), or GNU Lesser General Public License Version 2.1 (LGPL)
 // No warranties provided; use at your own risk.
+// Author: Grok AI v3 under Gorstaks instructions
 
 // Configuration Variables
 var normal = "DIRECT";              // Default pass-through for non-blocked traffic
@@ -37,7 +38,12 @@ var whitelist = [
     "*.discordapp.com",
     "discord.gg",
     "*.discord.gg",
-    "cdn.discordapp.com"
+    "cdn.discordapp.com",
+    "cdn.discord.app",      // Added to ensure Discord CDN works
+    "*.cdn.discord.app",    // Wildcard for subdomains
+    // AliExpress-related domains
+    "aliexpress.com",       // Added for AliExpress
+    "*.aliexpress.com"      // Wildcard for AliExpress subdomains
 ];
 
 // Comprehensive Regular Expression for Ad/Tracking Domains and Subdomains
