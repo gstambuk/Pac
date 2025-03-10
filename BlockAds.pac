@@ -29,7 +29,15 @@ var whitelist = [
     "ebay.com",
     "*.ebay.com",
     "yahoo.com",
-    "*.yahoo.com"
+    "*.yahoo.com",
+    // Discord-related domains
+    "discord.com",
+    "*.discord.com",
+    "discordapp.com",
+    "*.discordapp.com",
+    "discord.gg",
+    "*.discord.gg",
+    "cdn.discordapp.com"
 ];
 
 // Comprehensive Regular Expression for Ad/Tracking Domains and Subdomains
