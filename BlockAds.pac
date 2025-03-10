@@ -31,7 +31,6 @@ var whitelist = [
     "*.ebay.com",
     "yahoo.com",
     "*.yahoo.com",
-    // Discord-related domains
     "discord.com",
     "*.discord.com",
     "discordapp.com",
@@ -39,11 +38,11 @@ var whitelist = [
     "discord.gg",
     "*.discord.gg",
     "cdn.discordapp.com",
-    "cdn.discord.app",      // Added to ensure Discord CDN works
-    "*.cdn.discord.app",    // Wildcard for subdomains
-    // AliExpress-related domains
-    "aliexpress.com",       // Added for AliExpress
-    "*.aliexpress.com"      // Wildcard for AliExpress subdomains
+    "*.cdn.discordapp.com",
+    "cdn.discord.app",
+    "*.cdn.discord.app",
+    "aliexpress.com",
+    "*.aliexpress.com"
 ];
 
 // Comprehensive Regular Expression for Ad/Tracking Domains and Subdomains
