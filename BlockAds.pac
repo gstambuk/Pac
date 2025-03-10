@@ -21,6 +21,7 @@ var whitelist = [
     "discord.com",
     "discordapp.com",
     "cdn.discordapp.com",
+    "cdn.discord.app",
     "discord.gg",
     "discord.media",
     "discordapp.net",
