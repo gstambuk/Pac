@@ -22,10 +22,10 @@ var whitelist = [
     "citibank.com",
     "ebay.com",
     "yahoo.com",
-    "discord.com",
+    "// discord.com (allowed)",
     "discordapp.com",
     "discord.gg",
-    "cdn.discordapp.com",
+    "// cdn.discordapp.com (allowed)",
     "cdn.discord.app",
     "aliexpress.com",
     "tenor.com"
