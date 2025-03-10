@@ -27,7 +27,8 @@ var whitelist = [
     "discord.gg",
     "cdn.discordapp.com",
     "cdn.discord.app",
-    "aliexpress.com"
+    "aliexpress.com",
+    "tenor.com"
 ];
 
 // Comprehensive Regular Expression for Ad/Tracking Domains and Subdomains
