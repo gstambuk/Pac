@@ -23,6 +23,7 @@ var whitelist = [
     "discord.gg",
     "cdn.discordapp.com",
     "cdn.discord.app",
+    "media.discordapp.net",
     "aliexpress.com",
     "tenor.com"
 ];
