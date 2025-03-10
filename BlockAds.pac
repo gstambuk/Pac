@@ -1,9 +1,5 @@
-// Consolidated Ad-Blocking Proxy Auto-Configuration (PAC) File
-// Created by merging multiple ad-blocking PAC scripts
-// Date: March 09, 2025
-// License: Mozilla Public License Version 1.1 (MPL), GNU General Public License Version 2 (GPL), or GNU Lesser General Public License Version 2.1 (LGPL)
-// No warranties provided; use at your own risk.
-// Author: Grok AI v3 under Gorstaks instructions
+// Ads-Blocking Proxy Auto-Configuration (PAC) File
+// Author: Gorstak
 
 // Configuration Variables
 var normal = "DIRECT";              // Default pass-through for non-blocked traffic
@@ -22,10 +18,10 @@ var whitelist = [
     "citibank.com",
     "ebay.com",
     "yahoo.com",
-    "// discord.com (allowed)",
+    "discord.com",
     "discordapp.com",
     "discord.gg",
-    "// cdn.discordapp.com (allowed)",
+    "cdn.discordapp.com",
     "cdn.discord.app",
     "aliexpress.com",
     "tenor.com"
